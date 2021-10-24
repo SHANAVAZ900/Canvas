@@ -1,0 +1,33 @@
+
+.sidebar{
+    display:flex;
+    position: relative;
+}
+
+.sidebar .sidebar_items{
+    display: flex;
+    position:fixed;
+    width: 75px;
+    height: 100%;
+    background-color: #293039;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    
+}
+
+.sidebar_items>.MuiButton-root{
+    color: white;
+    font-size: medium;
+    border-radius:10%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    line-height: 18px;
+
+}
+
+.MuiButton-root>p{
+    font-size: 10px;
+    padding: 10px;
+}

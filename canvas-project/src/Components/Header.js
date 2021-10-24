@@ -28,8 +28,16 @@ function Header() {
           ></i>
           <p>Resize</p>
         </IconButton>
-        <Button disabled startIcon={<RotateLeftIcon />}></Button>
-        <Button disabled startIcon={<RotateRightIcon />}></Button>
+        <Button
+          disabled
+          startIcon={<RotateLeftIcon />}
+          sx={{ "& > :not(style)": { color: "white" } }}
+        ></Button>
+        <Button
+          disabled
+          startIcon={<RotateRightIcon />}
+          sx={{ "& > :not(style)": { color: "white" } }}
+        ></Button>
       </div>
 
       <div className="header_middle"></div>
