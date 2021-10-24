@@ -1,5 +1,4 @@
 import Button from "@mui/material/Button";
-import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import React from "react";
 import MoreHorizOutlinedIcon from "@mui/icons-material/MoreHorizOutlined";
 import "../CSS/SideBar.css";
