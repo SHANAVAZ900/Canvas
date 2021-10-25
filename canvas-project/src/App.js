@@ -1,12 +1,21 @@
 import React from "react";
 import Header from "./Components/Header";
 import SideBar from "./Components/SideBar";
+import Template from "./Components/Template";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <SideBar />
+      <Router>
+        <Header />
+        <SideBar />
+        <Switch>
+          <Route path="/templates">
+            <Template />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
