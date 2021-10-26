@@ -12,18 +12,23 @@ function SideBar() {
   return (
     <div className="sidebar">
       <div className="sidebar_items">
-        <Button to="/templates">
-          <AspectRatioIcon />
+        <Button className="active" onclick="close">
           <Link
+            className="links"
             to="/templates"
             style={{ textDecoration: "none", fontSize: "10px", color: "white" }}
           >
+            <AspectRatioIcon />
             <p>Templates</p>
           </Link>
         </Button>
         <Button>
-          <AppsIcon />
-          <p>Elements</p>
+          <Link
+            style={{ textDecoration: "none", fontSize: "10px", color: "white" }}
+          >
+            <AppsIcon />
+            <p>Elements</p>
+          </Link>
         </Button>
         <Button>
           <BackupOutlinedIcon />

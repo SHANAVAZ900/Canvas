@@ -12,9 +12,17 @@
     background-color: #293039;
     flex-direction: column;
     padding-top: 10px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
+    gap: 10px;
+    
     
 }
+
+
+.sidebar .sidebar_items .active{
+    background: rgb(20, 18, 17)
+}
+
 
 .sidebar_items>.MuiButton-root{
     color: white;
@@ -24,6 +32,9 @@
     display: flex;
     flex-direction: column;
     line-height: 18px;
+    border-top-right-radius:10px ;
+    border-bottom-right-radius:10px ;
+    
 
 }
 
