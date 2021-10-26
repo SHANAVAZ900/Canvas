@@ -24,6 +24,7 @@ function SideBar() {
         </Button>
         <Button>
           <Link
+            to="/templates"
             style={{ textDecoration: "none", fontSize: "10px", color: "white" }}
           >
             <AppsIcon />
