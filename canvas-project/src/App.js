@@ -11,12 +11,12 @@ function App() {
       <Router>
         <Header />
         <SideBar />
+        <CardBoard />
         <Switch>
           <Route path="/templates">
             <Template />
           </Route>
         </Switch>
-        <CardBoard />
       </Router>
     </div>
   );

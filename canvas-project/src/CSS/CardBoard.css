@@ -3,12 +3,49 @@
 
 .cardBoard{
     position:relative;
-    background-color: rgb(20, 18, 17);
+    background-color: rgb(211, 137, 100);
     width: 200px;
-    height: 55ch;
-    margin-top: 10px;
-    margin-left: 850px;
-    margin-bottom: 80px;
+    height: 20ch;
+    margin-left: 50rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
     text-align: center;
     color:white;
+}
+
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 768px;
+    height:100vh;
+    overflow: hidden;
+    margin:0 auto;
+    padding:15px;
+}
+
+.flexbox .board{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 300px;
+    background-color: #313131;
+    padding: 15px;
+}
+
+.flexbox .board .card{
+    padding: 15px 25px;
+    background-color: #f3f3f3;
+    cursor:pointer;
+    margin-bottom: 15px;
+
+
+
+}
+
+.flexbox .board .card ,.para{
+    background-color: #f3f3f3;
+    height: 140px;
+    width: 170px;
+    color:red;
 }
