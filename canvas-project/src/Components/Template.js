@@ -10,13 +10,14 @@ function Template() {
         <div className="flexbox">
           <DragNDrop id="board-1" className="board">
             <Card id="card-1" className="card" draggable="true">
-              <p className="para-1">
-                <img
-                  className="image"
-                  src="https://superdevresources.com/wp-content/uploads/2014/10/cute-diwali-background-with-paisley-elements.jpg"
-                  alt=""
-                />
-              </p>
+              <img
+                id="card-1"
+                className="card"
+                draggable="true"
+                src="https://superdevresources.com/wp-content/uploads/2014/10/cute-diwali-background-with-paisley-elements.jpg"
+                style={{ width: "165px", height: "150px" }}
+                alt=""
+              />
             </Card>
           </DragNDrop>
         </div>

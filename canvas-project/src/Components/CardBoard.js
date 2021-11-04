@@ -9,7 +9,7 @@ function CardBoard() {
       <div className="flexbox">
         <DragNDrop id="board-2" className="board">
           <Card id="card-2" className="card" draggable="false">
-            <p className="para">hello</p>
+            <p className="para"></p>
           </Card>
         </DragNDrop>
       </div>
