@@ -2,7 +2,7 @@
 
 
 .cardBoard{
-    position:relative;
+    position:absolute;
     background-color: rgb(211, 137, 100);
     width: 200px;
     height: 20ch;
@@ -19,7 +19,7 @@
     width: 100%;
     max-width: 768px;
     height:100vh;
-    overflow: hidden;
+    overflow:visible;
     margin:0 auto;
     padding:15px;
 }
@@ -44,7 +44,7 @@
 }
 
 .flexbox .board .card ,.para{
-    background-color: #f3f3f3;
+   
     height: 140px;
     width: 170px;
     color:red;

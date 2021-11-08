@@ -7,8 +7,8 @@ function CardBoard() {
   return (
     <div className="cardBoard">
       <div className="flexbox">
-        <DragNDrop id="board-2" className="board">
-          <Card id="card-2" className="card" draggable="false">
+        <DragNDrop id="board-3" className="board">
+          <Card id="card-3" className="card" draggable="false">
             <p className="para"></p>
           </Card>
         </DragNDrop>

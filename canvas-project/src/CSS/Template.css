@@ -8,7 +8,7 @@ position: -webkit-sticky;
     height: 70ch;
     margin-left: 75px;
     text-align: center;
-    color:white
+    color:white;
 
 }
 
@@ -28,7 +28,7 @@ position: -webkit-sticky;
     flex-direction: row;
     width: 100%;
     max-width: 300px;
-    background-color: #313131;
+    background-color: #f0ebeb;
     padding: 15px;
 }
 

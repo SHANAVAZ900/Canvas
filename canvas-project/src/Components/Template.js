@@ -19,6 +19,21 @@ function Template() {
                 alt=""
               />
             </Card>
+            <Card id="card-2" className="card" draggable="true">
+              <p
+                id="card-2"
+                className="card"
+                draggable="true"
+                style={{
+                  width: "100px",
+                  height: "100px",
+                  background: "white",
+                  color: "red",
+                }}
+              >
+                Hello
+              </p>
+            </Card>
           </DragNDrop>
         </div>
       </div>
