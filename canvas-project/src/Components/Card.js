@@ -13,6 +13,10 @@ function Card(props) {
 
   const dragOver = (e) => {
     e.stopPropagation();
+    const target1 = e.target;
+
+    e.dataTransfer.setData("card_id", target1.id);
+    target1.style.display = "block";
   };
 
   return (

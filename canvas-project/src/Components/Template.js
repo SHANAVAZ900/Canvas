@@ -2,6 +2,7 @@ import React from "react";
 import "../CSS/Template.css";
 import DragNDrop from "./DragNDrop";
 import Card from "./Card";
+import TextField from "@mui/material/TextField";
 
 function Template() {
   return (
@@ -25,13 +26,13 @@ function Template() {
                 className="card"
                 draggable="true"
                 style={{
-                  width: "100px",
-                  height: "100px",
+                  width: "120px",
+                  height: "50px",
                   background: "white",
                   color: "red",
                 }}
               >
-                Hello
+                <TextField defaultValue="Hello World" />
               </p>
             </Card>
           </DragNDrop>
